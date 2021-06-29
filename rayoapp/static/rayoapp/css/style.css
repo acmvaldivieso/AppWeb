@@ -1,0 +1,707 @@
+/******* AA STYLES *******/
+.mapa iframe{
+  display: inline-block;
+  width: 100%;
+}
+
+.mecanicos{
+  padding-top: 100px;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.slider-principal{
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+    top: 50px;
+}
+
+.slider-principal .slider {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slider-principal .slider .slider-item {
+  width: 100%;
+  position: relative;
+}
+
+.slider-principal .slider .slider-item img {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.slider-principal .slider .slider-item .content-text-slider{
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: block;
+  color: #fff;
+  padding: 200px 5%;
+}
+
+.slider-principal .slider .slider-item .content-text-slider h4{
+  font-size: 45px !important;
+}
+
+.veil{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+
+footer{
+    font-style: italic;
+    font-weight: 300;
+    background-color: #000;
+    color: white;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.navbar.navbar-expand-md.navbar-light.fixed-top.bf-light.navbar-main{
+  background-color: #ffe27b;
+}
+
+.navbar-collapse{
+  flex-grow: 0 !important;
+}
+
+.navbar-collapse .nav-link{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.container-general{
+    float: left;
+    width: 100%;
+    position: relative;
+    max-width: inherit;
+    margin-top: 60px;
+    padding: 0 6%;
+    box-sizing: border-box;
+}
+
+#formHolder .two-container{
+  display: flex;
+  align-items: center;
+}
+
+#formHolder{
+  margin-top: 50px;
+}
+
+#formHolder .two-container .image-container img{
+  width: auto;
+  height: 200px;
+}
+
+#formHolder .two-container .image-container h2{
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+#formHolder .two-container .image-container p{
+  font-weight: 100;
+}
+
+.title-general{
+  display: inline-block;
+  font-size: 35px;
+  text-transform: uppercase; 
+  font-weight: 600;
+}
+
+.form-container-crear .form-group input{
+    padding: 5px 5px 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #232323;
+}
+
+.form-container-crear .form-group {
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.form-container-crear .form-group input,
+.form-container-crear .form-group label,
+.form-container-crear .form-group span {
+    display: inline-block;
+    text-align: left;
+}
+
+.form-container-crear .form-group input{
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.form-container-crear .form-group span {
+  padding-top: 5px;
+  padding-left: 10px;
+  color: #232323;
+  font-size: 12px;
+}
+
+.button-yellow,
+.btn-yellow .btn{
+    background-color: #ffe27b;
+    color: #232323;
+    border: none !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    display: block !important;
+    margin-top: 30px !important;
+    padding: 8px 30px !important;
+    border-radius: 30px !important;
+    transition: .5s;
+}
+
+.button-yellow:hover,
+.btn-yellow .btn:hover{
+  background-color: #000 !important;
+  color: #ffe27b !important;
+  transition: .5s;
+
+}
+
+.form-container-crear form{
+  padding-left: 50px;
+}
+
+.phone-input{
+  margin-bottom: 5px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  #secinfo{
+    width: 100%;
+    margin: 0;
+  }
+  #formHolder .two-container {
+    display: grid;
+  }
+
+  #formHolder .two-container {
+    display: grid;
+  }
+
+  #formHolder .two-container .col-sm-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .servicios{
+    padding: 150px 0 40px !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+  #busqueda{
+    position: relative !important;
+    display: block !important;
+    margin-bottom: 30px;
+  }
+
+  #login{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    right: 0 !important;
+    top: 80px !important;
+  }
+
+  .header-main {
+    padding-top: 150px !important;
+    min-height: 0 !important;
+  } 
+
+  #contacto,
+  #crearcuenta{
+    padding: 120px 0px 40px !important;
+    margin: 0 !important;
+  }
+
+}
+
+/* ESTILO GENERAL */
+a{
+    color: inherit;
+}
+
+
+.container > .row{
+    margin-bottom: 3rem;
+}
+marquee{
+  color: rgb(68, 10, 10);
+}
+
+
+
+/*BUSCADOR*/
+#busqueda{
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    }
+
+/*LOGIN*/
+#login{
+  display: block;
+  position: absolute;
+  top: 60px;
+  position:relative;
+  float:right;
+  right: 8%;
+  font-size:12px;
+}
+
+/* BOTON*/
+#loginButton { 
+  display:inline-block;
+  background:#d2e0ea url('../img/buttonbg.png') repeat-x; 
+  border:1px solid #899caa; 
+  border-radius:3px;
+  -moz-border-radius:3px;
+  position:relative;
+  z-index:30;
+  cursor:pointer;
+}
+
+#loginButton span {
+  color:#445058; 
+  font-size:14px; 
+  font-weight:bold; 
+  text-shadow:1px 1px #fff; 
+  padding:7px 29px 9px 10px;
+  background:url('../img/loginArrow.png') no-repeat 53px 7px;
+  display:block
+}
+
+#loginButton:hover {
+  background:url('../img/buttonbgHover.png') repeat-x;
+}
+
+/* LOGIN BOX */
+#loginBox {
+  position:absolute;
+  top:34px;
+  right:0;
+  display:none;
+  z-index:29;
+}
+
+/* AL DAR CLICK AL LOGIN */    
+#loginButton.active {
+  border-radius:3px 3px 0 0;
+}
+
+#loginButton.active span {
+  background-position:53px -76px;
+}
+
+#loginButton.active em {
+  position:absolute;
+  width:100%;
+  height:1px;
+  background:#d2e0ea;
+  bottom:-1px;
+}
+
+/* FORMULARIO */
+#loginForm {
+  width:248px; 
+  border:1px solid #899caa;
+  border-radius:3px 0 3px 3px;
+  -moz-border-radius:3px 0 3px 3px;
+  margin-top:-1px;
+  background:#d2e0ea;
+  padding:6px;
+}
+
+#loginForm fieldset {
+  margin:0 0 12px 0;
+  display:block;
+  border:0;
+  padding:0;
+}
+
+fieldset#body {
+  background:#fff;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  padding:10px 13px;
+  margin:0;
+}
+
+#loginForm #checkbox {
+  width:auto;
+  margin:1px 9px 0 0;
+  float:left;
+  padding:0;
+  border:0;
+  *margin:-3px 9px 0 0; /* IE7 Fix */
+}
+
+#body label {
+  color:#3a454d;
+  margin:9px 0 0 0;
+  display:block;
+  float:left;
+}
+
+#loginForm #body fieldset label {
+  display:block;
+  float:none;
+  margin:0 0 6px 0;
+}
+
+
+#loginForm input {
+  width:92%;
+  border:1px solid #899caa;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  color:#3a454d;
+  font-weight:bold;
+  padding:8px 8px;
+  box-shadow:inset 0px 1px 3px #bbb;
+  -webkit-box-shadow:inset 0px 1px 3px #bbb;
+  -moz-box-shadow:inset 0px 1px 3px #bbb;
+  font-size:12px;
+}
+
+/*BOTON ENTRAR*/
+#loginForm #entrar {
+  width:auto;
+  float:left;
+  background:#278db8 url('../img/loginbuttonbg.png') repeat-x;
+  color:#fff;
+  padding:7px 10px 8px 10px;
+  text-shadow:0px -1px #278db8;
+  border:1px solid #278db8;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  margin:0 12px 0 0;
+  cursor:pointer;
+  padding:7px 2px 8px 2px; /* IE7 Fix */
+}
+
+
+#loginForm span {
+  text-align:center;
+  display:block;
+  padding:7px 0 4px 0;
+}
+
+#loginForm span a {
+  color:#3a454d;
+  text-shadow:1px 1px #fff;
+  font-size:12px;
+}
+
+input:focus {
+  outline:none;
+}
+
+/*CREAR USUARIO*/
+
+
+/*CENTRAR TITULO*/
+.header-main{
+    padding-top: 200px;
+    min-height: 500px;
+}
+
+/*REDES SOCIALES*/
+.icons-social-networks > a{
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icons-social-networks{
+    left: 15%;
+    margin-left: -1px;
+    width: 50%; 
+}
+
+/*CARRUSEL*/
+#principal{
+    display: block;
+    position: absolute;
+    top: 150px;
+    right: 1%;
+    margin-left: -1px;
+    
+    width: 50%;
+}
+
+.carousel-item img{
+    filter: grayscale(75%);
+}
+
+.carousel-caption{
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 20%;
+    margin-left: 15%;
+    
+}
+
+.carousel-caption h4{
+    font-size: 5em;
+    text-align: left;
+    text-shadow: 2px 2px 4px black;
+}
+
+.carousel-caption button{
+    position: absolute;
+    left: 0;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+/*MECANICOS*/
+.icono-mecanico{
+    --box-size: 250px;
+    width: var(--box-size);
+    height: var(--box-size);
+    padding: 10px;
+}
+
+
+.icono-sercicios{
+  --box-size:70px;
+    width: var(--box-size);
+    height: var(--box-size);
+    padding: 10px;
+}
+
+.fotoservicio{
+    padding: 150px;
+    --box-size:700px;
+    width: 100%;
+    height: var(--box-size);
+    
+}
+
+.titulo{
+  padding: 215px 150px;
+}
+
+/*FORMULARIO INICIAR SESION - CREAR CUENTA*/
+/*LOGIN*/
+body {
+  /*background-image: url("fotos/fondo1.png");*/
+  font-family: 'Titillium Web', sans-serif;
+  overflow-x: hidden;
+}
+
+.loginbtn {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+.login-header,
+.loginbtn p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: rgb(221, 34, 34);
+}
+
+.login-header {
+  background: rgb(221, 34, 34);
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+.loginbtn p {
+  padding: 12px;
+}
+
+.loginbtn input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.loginbtn input[type="email"],
+.loginbtn input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+.logibtnn input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.loginbtn input[type="submit"] {
+  background: rgb(221, 34, 34);
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.loginbtn input[type="submit"]:hover {
+  background: rgb(204, 17, 17);
+}
+
+.loginbtn input[type="submit"]:focus {
+  border-color: rgb(170, 0, 0);
+}
+
+/*CREAR CUENTA*/
+.brand{
+  padding: 20px;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  min-height: 440px;
+  position: relative;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  }
+
+.form{
+  position: relative;
+  }
+
+.form-peice{
+  min-height: 480px;
+  margin-top: 30px;
+  padding: 300px;
+  position: absolute;
+  top: 0;
+  width: 130%;
+  overflow: hidden;
+  width: 100%;
+  left: 250px;
+  }
+
+.form{
+  padding: 0 40px;
+  margin: 0;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  }
+
+  .form-group{
+  margin-bottom: 10px
+  }
+
+
+
+label {
+  display: inline-block;
+  width:100px;
+  text-align: right;
+  position: relative;
+
+}
+
+
+
+
+/*INFO MECANICOS*/
+.icono-desc_mecanico{
+  --size: 400px;
+    width: var(--size);
+    height: var(--size);
+
+}
+
+.icono-desc_mecanico{
+    padding: 50px;
+    display: block;
+    margin: center;
+  
+  }
+
+.btn_info_mecanico{
+    display: block;
+    position: absolute;
+    left: 14%;
+}
+
+.txt_mecanico{
+  padding: 15%;
+ 
+  
+}
+
+.btn_mecanicos{
+  background-image: url('../img/fondo.png');
+}
