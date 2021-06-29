@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rayoapp',
+    'rest_framework',
+    'rest_vehiculo',
 ]
 
 MIDDLEWARE = [
