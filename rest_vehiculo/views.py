@@ -25,7 +25,7 @@ def lista_vehiculos(request):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['GET','PUT','DELETE'])
-def detalle_vehiculo(request,id):
+def detalle_vehiculo(request, id):
     try:
         vehiculo = Vehiculo.objects.get(patente=id)
     except Vehiculo.DoesNotExist:
@@ -43,7 +43,7 @@ def detalle_vehiculo(request,id):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     elif request.method == 'DELETE':
         vehiculo.delete()
-        return Response(status=status.HTTP_204_NOT_CONTENT)
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 
 
