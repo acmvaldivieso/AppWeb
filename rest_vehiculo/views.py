@@ -18,7 +18,7 @@ def lista_vehiculos(request):
     elif request.method == 'POST':
         data = JSONParser().parse(request)
         serializer = VehiculoSerializer(data=data)
-        if(serializer.is_valid()):
+        if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         else:
@@ -35,7 +35,7 @@ def detalle_vehiculo(request, id):
         return Response(serializer.data)
     if request.method == 'PUT':
         data = JSONParser().parse(request)
-        serializer = VehiculoSerializer(vehiculo,data=data)
+        serializer = VehiculoSerializer(vehiculo, data=data)
         if(serializer.is_valid()):
             serializer.save()
             return Response(serializer.data)
